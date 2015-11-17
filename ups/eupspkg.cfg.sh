@@ -14,4 +14,13 @@ prep()
     curl -O http://lsst-web.ncsa.illinois.edu/sim-data/DustMaps/dust_nside_256.npz
     curl -O http://lsst-web.ncsa.illinois.edu/sim-data/DustMaps/dust_nside_512.npz
     curl -O http://lsst-web.ncsa.illinois.edu/sim-data/DustMaps/dust_nside_1024.npz
+    cd ..
+    mkdir StarMaps
+    cd StarMaps
+    curl -O http://lsst-web.ncsa.illinois.edu/sim-data/StarMaps/starDensity_nside_64_rmagLimit_15.npz
+    curl -O http://lsst-web.ncsa.illinois.edu/sim-data/StarMaps/starDensity_nside_64_rmagLimit_20.npz
+    curl -O http://lsst-web.ncsa.illinois.edu/sim-data/StarMaps/starDensity_nside_64_rmagLimit_25.npz
+    curl -O http://lsst-web.ncsa.illinois.edu/sim-data/StarMaps/starDensity_nside_64_rmagLimit_28.npz
+    curl -O http://lsst-web.ncsa.illinois.edu/sim-data/StarMaps/starDensity_nside_64_rmagLimit_30.npz
+    
 }
